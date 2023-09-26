@@ -1,6 +1,6 @@
 # Twitter-X Home Page Clone
 
-<img src="./assets/svg/sidebars_svg/x_icon.svg" alt="SVG Image" width="100" height="100">
+<img src="./assets/svg/sidebars_svg/x_icon.svg" alt="SVG Image" width="300" height="300">
 
 This project is a simple HTML and CSS clone of the Twitter home page, demonstrating the design and layout of Twitter's home page using basic web technologies.
 
