@@ -1,6 +1,6 @@
 # Twitter-X Home Page Clone
 
-![SVG Image](./assets/svg/sidebars_svg/x_icon.svg)
+<img src="./assets/svg/sidebars_svg/x_icon.svg" alt="SVG Image" width="50" height="50">
 
 This project is a simple HTML and CSS clone of the Twitter home page, demonstrating the design and layout of Twitter's home page using basic web technologies.
 
@@ -9,7 +9,7 @@ This project is a simple HTML and CSS clone of the Twitter home page, demonstrat
 1. Clone the repository:
    ```bash
    git clone https://github.com/mishasharotakala/twitter__x__clone.git
-   cd twitter-clone
+   cd twitter__x__clone
    
 2. Open the **index.html** file in a web browser to view the Twitter home page clone.
 # # Features
