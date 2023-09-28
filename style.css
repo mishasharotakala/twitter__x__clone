@@ -9,6 +9,7 @@ html {
 
 /* BRAND CSS*/
 .brand {
+    cursor: pointer;
     height: 58px;
     /* filter: invert(46%) sepia(99%) saturate(1449%) hue-rotate(176deg) brightness(100%) contrast(91%); */
     padding: 10px;
@@ -20,13 +21,11 @@ html {
     z-index: 1;
 }
 
-.brand:hover {
-    background-color: #e6ecf0;
-    /* background-color: var(--twitter-color); */
+/* .brand:hover {
+    background-color: transparent;
     border-radius: 40px;
-    /* color: var(--twitter-color); */
     transition: color 100ms ease-out;   
-}
+} */
 
 /* .post {
     height: 28px;
@@ -35,6 +34,7 @@ html {
 
 .post-container {
     position: relative;
+    cursor: pointer;
   }
   
 .blue-background {
@@ -59,12 +59,11 @@ html {
   }
   
 
-.post:hover {
+/* .post:hover {
     background-color: transparent;
     border-radius: 40px;
-    /* color: var(--twitter-color); */
     transition: color 100ms ease-out;   
-}
+} */
 
 /* LAYOUT CSS */
 .layout {
