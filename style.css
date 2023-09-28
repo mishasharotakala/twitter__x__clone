@@ -12,6 +12,12 @@ html {
     height: 58px;
     /* filter: invert(46%) sepia(99%) saturate(1449%) hue-rotate(176deg) brightness(100%) contrast(91%); */
     padding: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin-top: 20px; /* Adjust this margin based on your design */
+    margin-left: 20px; /* Adjust this margin based on your design */
+    z-index: 1;
 }
 
 .brand:hover {
@@ -67,6 +73,10 @@ html {
     margin: 0 auto;
     max-width: 1200px;
 }
+
+/* .layout__right-sidebar-container {
+    overflow-y: auto;
+} */
   
 .layout__right-sidebar {
     position: fixed;
@@ -76,6 +86,7 @@ html {
 /* SIDEBAR-MENU CSS */
 .sidebar-menu {
     position: fixed;
+    top: 100px;
 }
   
 .sidebar-menu__item {
@@ -171,6 +182,7 @@ html {
     margin-bottom: 2px;
     padding: 10px 15px;
 }
+
   
 .tweet:hover {
     background: rgba(0, 0, 0, 0.03);
