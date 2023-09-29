@@ -62,8 +62,8 @@ html {
     content: "profile";
     display: none;
     position: absolute;
-    top: 400px; /* Adjust this to position the text */
-    left: 150px;
+    bottom: 70px; /* Adjust this to position the text */
+    right: 3px;
     background-color: transparent;
     border-radius: 10px;
     color: black;
@@ -85,6 +85,30 @@ html {
     padding: 20px;
     filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(100%) contrast(100%);
   }
+
+ #post_id:hover {
+    /* background: rgba(29, 161, 242, 0.1); */
+    color: #1da0f2;
+    border-radius: 20px;
+}
+
+#post_id::after {
+    content: "post";
+    display: none;
+    position: absolute;
+    bottom: 40px; 
+    right: 70px; 
+    background-color: transparent;
+    border-radius: 10px;
+    color: black;
+    padding: 10px;
+    font-weight: bold;
+    opacity: 50%;
+  }
+  
+  #post_id:hover::after {
+    display: block;
+  } 
   
 
 /* .post:hover {
