@@ -51,6 +51,29 @@ html {
 #author-slug {
     margin-top: -2px; /* Adjust the margin to control the gap */
   }
+
+#x-profile:hover {
+    background: rgba(29, 161, 242, 0.1);
+    color: #1da0f2;
+    border-radius: 20px;
+}
+
+#x-profile::after {
+    content: "profile";
+    display: none;
+    position: absolute;
+    top: 400px; /* Adjust this to position the text */
+    left: 150px;
+    background-color: transparent;
+    border-radius: 10px;
+    color: black;
+    padding: 10px;
+    font-weight: bold;
+  }
+  
+  #x-profile:hover::after {
+    display: block;
+  }
   
   .post {
     height: 29px;
